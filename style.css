@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --primary-color:#FBBF24;
+    --seconday-color:#1E3A8A;
+}
+
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: var(--primary-color);
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+
+#show-btn{
+border-radius: 1rem;
+color: white;
+padding: 0.5rem;
+background-color: var(--seconday-color);
+cursor: pointer;
+}
+
+#bday-input{
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: var(--seconday-color);
+    cursor: pointer;
+}
+
+#output{
+    font-size: larger;
+}
